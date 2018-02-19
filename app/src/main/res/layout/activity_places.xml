@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    tools:context="com.jeremiah.explorecartercounty.PlacesActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+      <Button
+          android:id="@+id/parksRec"
+          style="@style/Base.Widget.AppCompat.ButtonBar"
+          android:layout_width="match_parent"
+          android:layout_height="185dp"
+          android:layout_margin="0dp"
+          android:layout_weight="1"
+          android:background="@drawable/parks"
+          android:fontFamily="@font/oleo_script_bold"
+          android:onClick="goTo"
+          android:text="Parks and Recreation"
+          android:textSize="40sp"
+          android:tag="1"/>
+
+      <Button
+          android:id="@+id/historicSites"
+          style="@style/Base.Widget.AppCompat.ButtonBar"
+          android:layout_width="match_parent"
+          android:layout_height="185dp"
+          android:layout_margin="0dp"
+          android:layout_weight="1"
+          android:background="@drawable/history"
+          android:fontFamily="@font/oleo_script_bold"
+          android:onClick="goTo"
+          android:text="Historic Sites"
+          android:textSize="40sp"
+          android:tag="2"/>
+
+      <Button
+          android:id="@+id/waterWays"
+          style="@style/Base.Widget.AppCompat.ButtonBar"
+          android:layout_width="match_parent"
+          android:layout_height="185dp"
+          android:layout_margin="0dp"
+          android:layout_weight="1"
+          android:background="@drawable/waterways"
+          android:fontFamily="@font/oleo_script_bold"
+          android:onClick="goTo"
+          android:text="Water Ways"
+          android:textSize="40sp"
+          android:tag="3"/>
+
+
+  </LinearLayout>
+
+
+</RelativeLayout>
+
