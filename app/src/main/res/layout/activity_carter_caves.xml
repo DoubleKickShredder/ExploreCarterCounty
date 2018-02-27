@@ -6,9 +6,108 @@
     android:layout_height="match_parent"
     tools:context="com.jeremiah.explorecartercounty.CarterCavesActivity">
 
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Carter Caves"/>
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/mainPic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/parks"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="21sp"
+                    android:layout_marginTop="10dp"
+                    android:text="CARTER CAVES STATE RESORT PARK" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla lacus, vulputate et feugiat non, scelerisque nec velit. Nam vel mi in lorem auctor faucibus at quis lorem. Fusce hendrerit massa ut erat convallis lacinia. Quisque lobortis suscipit elit, quis posuere sapien bibendum sed. Pellentesque tellus mi, molestie non ex at, dignissim tristique turpis. Donec porttitor vitae arcu vel laoreet. Curabitur nec augue quis justo lobortis commodo vel venenatis tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc sem velit, egestas sit amet lacus vel, vulputate finibus mi. Nullam mollis ligula mi, ut pharetra neque vehicula sit amet. Fusce egestas lectus ut aliquam interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id bibendum turpis. Curabitur non venenatis ligula, id congue libero." />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_margin="0dp"
+                                android:src="@drawable/lodging"/>
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_margin="0dp"
+                                android:src="@drawable/events" />
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_margin="0dp"
+                                android:src="@drawable/places"/>
+
+
+
+
+                        </LinearLayout>
+
+
+                    </HorizontalScrollView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
 
 </RelativeLayout>
