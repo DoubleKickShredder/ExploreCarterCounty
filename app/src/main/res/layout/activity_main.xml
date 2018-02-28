@@ -55,18 +55,7 @@
                     android:tag="3"
                     android:textSize="40sp" />
 
-                <Button
-                    android:id="@+id/passport"
-                    style="@style/Base.Widget.AppCompat.ButtonBar"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:background="@drawable/passport"
-                    android:fontFamily="@font/oleo_script_bold"
-                    android:onClick="goToPage"
-                    android:tag="4"
-                    android:text="My Passport"
-                    android:textSize="40sp" />
-
+                
 
             </LinearLayout>
 
